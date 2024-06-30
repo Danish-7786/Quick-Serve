@@ -12,7 +12,7 @@ import Header from "@/components/header";
 import MenuCard from "@/components/MenuCard";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-const page = () => {
+const Page = () => {
 const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
@@ -177,4 +177,4 @@ const responsive = {
     </div>
   );
 };
-export default page;
+export default Page;

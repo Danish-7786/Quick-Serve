@@ -6,7 +6,7 @@ import AdminHeader from '@/components/AdminHeader'
 import OrderCard from '@/components/orderCard'
 import React from 'react'
 import axios from 'axios'
-const page = () => {
+const Page = () => {
   const [data,setData]= useState([])
   useEffect(() => {
       const fetchData = async () => {
@@ -47,4 +47,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

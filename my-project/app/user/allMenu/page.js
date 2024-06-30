@@ -4,7 +4,7 @@ import Header from '@/components/header'
 import React, { useEffect, useState } from 'react'
 import axios from "axios"
 import UserMenuCard from '@/components/UserMenuCard'
-const page = () => {
+const Page = () => {
     const [data,setData] = useState([])
 
     const url = `http://localhost:4000/user/menu`;
@@ -44,4 +44,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

@@ -16,7 +16,7 @@ import { Dropdown } from 'flowbite-react';
 import Link from 'next/link';
 import Header from '@/components/header';
 
-const page = ({searchParams}) => {
+const Page = ({searchParams}) => {
   
 
 
@@ -190,4 +190,4 @@ console.log(data);
   )
 }
 
-export default page
+export default Page

@@ -5,7 +5,7 @@ import {useState,useEffect} from 'react'
 import {useRouter} from 'next/navigation'
 import axios from 'axios'
 import Input from './../../../components/input'
-const page = () => {
+const Page = () => {
 
   const [username,setUsername] = useState('');
   const [password,setPassword] = useState('')
@@ -80,4 +80,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

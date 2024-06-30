@@ -6,7 +6,7 @@ import axios from "axios";
 import { useRouter } from "next/navigation";
 import Input from "./../../../components/input";
 
-const page = () => {
+const Page = () => {
   const [name, setName] = useState("");
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -115,4 +115,4 @@ const page = () => {
   };
 // };
 
-export default page;
+export default Page;

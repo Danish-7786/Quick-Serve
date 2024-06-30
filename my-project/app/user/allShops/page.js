@@ -6,7 +6,7 @@ import axios  from 'axios';
 import Link from "next/link"
 import UserShopCard from '@/components/UserShopCard';
 
-const page = () => {
+const Page = () => {
 
     const [data,setData] = useState([]);
     useEffect(() => {
@@ -54,4 +54,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

@@ -4,7 +4,7 @@ import Image from 'next/image'
 import {FiPlusCircle} from 'react-icons/fi'
 import {AiOutlineMinusCircle} from 'react-icons/ai'
 
-const page = ({imgUrl,imgName,dishName,disnPrice}) => {
+const Page = ({imgUrl,imgName,dishName,disnPrice}) => {
     const [quantity,setQuantity] = useState(1)
   return (
     <div className='h-screen bg-gradient-to-r from-violet-700 to bg-indigo-600'>
@@ -48,4 +48,4 @@ const page = ({imgUrl,imgName,dishName,disnPrice}) => {
   )
 }
 
-export default page
+export default Page

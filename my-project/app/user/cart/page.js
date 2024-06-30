@@ -3,7 +3,7 @@ import React from 'react'
 import axios from 'axios'
 import Header from '@/components/header'
 import UserCartCard from '@/components/UserCartCard';
-const page = () => {
+const Page = () => {
   // const initPayment = (data) => {
 	// 	const options = {
 	// 		key: "",
@@ -49,4 +49,4 @@ const page = () => {
   )
 }
 
-export default page;
+export default Page;
