@@ -1,0 +1,57 @@
+{
+  "name": "my-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.8",
+    "@mui/icons-material": "^5.14.18",
+    "@mui/material": "^5.14.18",
+    "@stripe/stripe-js": "^2.1.11",
+    "axios": "^1.6.1",
+    "cirrus-ui": "^0.7.1",
+    "eslint": "8.49.0",
+    "eslint-config-next": "13.4.19",
+    "flowbite-react": "^0.6.4",
+    "mdb-react-ui-kit": "7.0.0",
+    "mdbootstrap": "^4.20.0",
+    "next": "13.4.19",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.11.0",
+    "react-multi-carousel": "^2.8.4",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.30",
+    "tailwindcss": "^3.3.3"
+  },
+  "keywords": [
+    "template",
+    "react"
+  ],
+  "author": "MDBootstrap",
+  "license": "MIT",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
